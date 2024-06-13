@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0A5B4DA-0D89-FFC9-6948-A52C3915DDBF" name="EventoLimpeza">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<importedID>497070DA-E4C9-0C38-C997-8B294B8B621E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="evento_id" id="9436BE87-5B2E-ECC4-4807-3DBA0768B0DC">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<importedID>A714DABA-74B2-508A-6493-898787F994D6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D9731F27-940E-3C3B-727B-496D3742C680</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_evento" id="FE97B4F5-0C27-CEF4-AD7B-97B6E3EEB2EB">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<importedID>02CD4CC3-2ECF-824E-43BD-8BA0889D70EE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A1823C25-1D59-E510-AF88-D6C58FD2AF9C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="606A5FCE-680E-2B17-01AD-CAE64730D785">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<importedID>1DB5385B-C723-7EBA-A935-8D058791A64E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_evento" id="FD88BB56-61AE-FF6F-B939-9E1B4DED3067">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<importedID>D1C42FD0-EA9C-20D6-4BF6-854987253B6C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>1971DA8F-C86D-3FA2-7B3A-672A4CBE43E9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="localizacao" id="4381A000-F970-35D1-56F9-3455F7B611C9">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<importedID>5B02CC6B-DB47-DFEA-02F7-320680BC637F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64B43EFE-3A6D-1EB9-0E7B-3C79A3C4BE52</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="organizador" id="EE1CA9B9-DDC2-F008-605E-504F5949ABEB">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<importedID>27328E4E-FC6C-58A4-D0DF-9E0F4BFBEAAA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A1823C25-1D59-E510-AF88-D6C58FD2AF9C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E66AB7C1-71A6-D52E-20E4-A6D6C8D81DA9" name="EventoLimpeza_PK">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<importedID>C9BC92DD-BE1E-CADB-2908-D686EB9EAF4B</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9436BE87-5B2E-ECC4-4807-3DBA0768B0DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

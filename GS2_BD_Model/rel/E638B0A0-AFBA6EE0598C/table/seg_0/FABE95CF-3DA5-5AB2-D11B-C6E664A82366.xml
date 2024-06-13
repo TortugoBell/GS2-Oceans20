@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FABE95CF-3DA5-5AB2-D11B-C6E664A82366" name="Usuario_Desafio">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-06-06 09:28:49 UTC</createdTime>
+<generatorID>102C1BA1-8CAF-3441-E5F3-06E6FA57FD39</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Usuario_usuario_id" id="26B8E76C-BF4F-DFBC-85E3-047AA08CD2AE">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-06-06 09:28:49 UTC</createdTime>
+<generatorID>BB6AE660-8769-F65A-CBE7-97EC83C7FA3B</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D9731F27-940E-3C3B-727B-496D3742C680</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78BECC5B-CE29-2034-FCE8-8BD95950D6F6" referredColumn="BA34E97E-A247-F982-DDB6-B0C13702C65B"/>
+</associations>
+</Column>
+<Column name="Desafio_desafio_id" id="25DF0FF2-5BAB-8D18-6727-A71472F9A3DA">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-06-06 09:28:49 UTC</createdTime>
+<generatorID>96B4ABA9-1561-6B8C-B701-5E446D367AAD</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D9731F27-940E-3C3B-727B-496D3742C680</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1DE8407-AB34-8F88-1660-EF977A7B63D8" referredColumn="CA0397EB-9906-B35E-D76E-4770722B66D4"/>
+</associations>
+</Column>
+<Column name="status" id="A55F94DE-CE88-7A87-2111-A63CF0BD0224">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-06-06 09:28:49 UTC</createdTime>
+<generatorID>DA1958B9-6E51-522A-C29D-EFB969FE8D3E</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>53BF3C25-2D7A-31E6-AB67-41CEBFB3BEB0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_conclusao" id="07F540E1-C180-1A63-928C-EA03E9DEC3B0">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-06-06 09:28:49 UTC</createdTime>
+<generatorID>7A0AE29C-57EC-1256-CD77-0AB3BD8F4409</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>1971DA8F-C86D-3FA2-7B3A-672A4CBE43E9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9942C0B7-4367-C5C5-8806-A1410F8FBFF8" name="Usuario_Desafio_PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-06-06 09:28:49 UTC</createdTime>
+<generatorID>4C5D8C38-91DA-FD85-1F51-A54F1330D5DF</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26B8E76C-BF4F-DFBC-85E3-047AA08CD2AE"/>
+<colUsage columnID="25DF0FF2-5BAB-8D18-6727-A71472F9A3DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F7375118-0322-4221-0A37-42F6C042627B" name="Usuario_Desafio_Desafio_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-06-06 09:28:49 UTC</createdTime>
+<generatorID>28E8C6AA-827E-7B6F-E3B3-975DC9170232</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25DF0FF2-5BAB-8D18-6727-A71472F9A3DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9BAAD22-C194-6CF1-7681-E791CD788AD0" name="Usuario_Desafio_Usuario_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-06-06 09:28:49 UTC</createdTime>
+<generatorID>C40892E3-6A75-18C9-A9CC-B44856AC2CC1</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26B8E76C-BF4F-DFBC-85E3-047AA08CD2AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

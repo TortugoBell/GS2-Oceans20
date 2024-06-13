@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="99A2F4BE-8512-7865-F903-354B5A0EC1E1" name="Badges">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-06-06 09:26:54 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="usuario id" id="E65077AB-E80E-1CBA-4050-590F340D264C">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-06-06 09:28:17 UTC</createdTime>
+<generatorID>6851A1F7-4B7F-DAE4-1D47-3EC55D269D38</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<referedAttribute>F9ED5284-5F0D-29FF-DE68-DDB3EF9FADA4</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D9731F27-940E-3C3B-727B-496D3742C680</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="B_1" id="A6CB2013-33BA-E372-D347-CAA0813EA75F">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-06-06 09:27:08 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="B_2" id="D8698E55-C106-B2A3-9615-66F03C0F71F5">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-06-06 09:27:27 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="B_3" id="5F49C903-A1B7-3FB6-B84D-B853593D9338">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-06-06 09:27:38 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7C8B43FE-C252-5C9E-E46E-C9F522FCF54E" name="Badges PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-06-06 09:28:17 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E65077AB-E80E-1CBA-4050-590F340D264C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

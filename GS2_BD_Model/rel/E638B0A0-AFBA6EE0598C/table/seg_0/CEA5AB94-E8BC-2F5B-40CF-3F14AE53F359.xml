@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CEA5AB94-E8BC-2F5B-40CF-3F14AE53F359" name="EventoLimpeza">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-06-06 09:28:49 UTC</createdTime>
+<generatorID>E354A39E-52E0-67AF-A292-D4C260E16CDC</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="evento_id" id="E44085E7-B3E2-4365-588A-A728A5BA9CB6">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-06-06 09:28:49 UTC</createdTime>
+<generatorID>EAC01D10-DC17-CB3F-737C-B472043AFD83</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D9731F27-940E-3C3B-727B-496D3742C680</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_evento" id="6A51555B-1C01-08AE-78ED-27B8AE4A27D8">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-06-06 09:28:49 UTC</createdTime>
+<generatorID>3CA853C8-FC29-23BA-870B-3A0300760ACE</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A1823C25-1D59-E510-AF88-D6C58FD2AF9C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="D8B5CCF4-52B8-662D-CF57-51017629A8D0">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-06-06 09:28:49 UTC</createdTime>
+<generatorID>E93389BF-3322-A408-454C-192DBD30F7EB</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_evento" id="D85E73E7-8C98-0491-9915-3B258655A20B">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-06-06 09:28:49 UTC</createdTime>
+<generatorID>E9AABA59-9B70-8379-8B74-D8F09ACE5149</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>1971DA8F-C86D-3FA2-7B3A-672A4CBE43E9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="localizacao" id="4DDD98DC-8C6B-EB0B-C99B-5B6115373BAE">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-06-06 09:28:49 UTC</createdTime>
+<generatorID>5C0AE929-BE7C-2623-B457-C6E11EB0D6AC</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64B43EFE-3A6D-1EB9-0E7B-3C79A3C4BE52</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="organizador" id="FC855244-DF96-750F-48F7-AF92185105CA">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-06-06 09:28:49 UTC</createdTime>
+<generatorID>C11E2E8E-6E02-594C-FF64-198D15DBEA17</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A1823C25-1D59-E510-AF88-D6C58FD2AF9C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1C0FA299-18BE-E7C9-AB53-BD6695C28A87" name="EventoLimpeza_PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-06-06 09:28:49 UTC</createdTime>
+<generatorID>AB7051B0-43E5-018E-5989-4F59D52E35E0</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E44085E7-B3E2-4365-588A-A728A5BA9CB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="1_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="1971DA8F-C86D-3FA2-7B3A-672A4CBE43E9">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>1_Domains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_50" id="53BF3C25-2D7A-31E6-AB67-41CEBFB3BEB0">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>50</dataTypeSize>
+<fileName>1_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_255" id="64B43EFE-3A6D-1EB9-0E7B-3C79A3C4BE52">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>255</dataTypeSize>
+<fileName>1_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_100" id="A1823C25-1D59-E510-AF88-D6C58FD2AF9C">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>100</dataTypeSize>
+<fileName>1_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="FLOAT_0_0_0" id="BD171DB8-27DF-FADA-64F5-7ED8F4AAC4AA">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>1_Domains</fileName>
+<logicalDatatype>LOGDT021</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Integer_0_0_0" id="D9731F27-940E-3C3B-727B-496D3742C680">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>1_Domains</fileName>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

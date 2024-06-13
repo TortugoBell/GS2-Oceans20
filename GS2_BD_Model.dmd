@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="GS2_BD_Model" id="75F081AC-745C-2DB5-B0EB-0F05619C7E66" version="3.5">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:28:04 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>75F081AC-745C-2DB5-B0EB-0F05619C7E66</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="973ED186-D1E4-7DA1-ED87-9316F59CC24B">
+<designStoragePath>C:\1</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

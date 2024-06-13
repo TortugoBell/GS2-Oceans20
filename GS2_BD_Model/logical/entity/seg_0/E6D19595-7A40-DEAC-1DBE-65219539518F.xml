@@ -1,0 +1,188 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E6D19595-7A40-DEAC-1DBE-65219539518F" name="Coleta">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>29C1E2F6-BB08-73CD-D746-02BAEC56EA99</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="coleta id" id="CACEA83F-53CE-A92A-71F4-13E83DBD9CEE">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>29B09731-9AAB-1E07-1A49-0F70B5C843CD</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D9731F27-940E-3C3B-727B-496D3742C680</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usuario id" id="8B840CD3-DD17-732C-81EC-7892213DF1DA">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>8C618F04-48B1-173C-1A09-C7A314EC6E03</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F9ED5284-5F0D-29FF-DE68-DDB3EF9FADA4</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D9731F27-940E-3C3B-727B-496D3742C680</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="evento id" id="1BA73EA5-D487-F28A-4BB7-C3E8AF6DBC01">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>7DA9C972-0EDA-9744-C27E-462CF0AC15EF</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>EAC01D10-DC17-CB3F-737C-B472043AFD83</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D9731F27-940E-3C3B-727B-496D3742C680</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data coleta" id="B890F829-B46A-32DD-BD74-45515C5FCE71">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>E1CC0052-F326-A598-A855-A0D4CE6F221B</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>1971DA8F-C86D-3FA2-7B3A-672A4CBE43E9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="localizacao" id="BF739C70-96AD-E0DD-7378-26AE09E32EA0">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>3D518142-2E02-19B3-19CD-5EDF2E96AE9C</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64B43EFE-3A6D-1EB9-0E7B-3C79A3C4BE52</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantidade pecas" id="28AABF45-3DB5-766F-A651-581F0D92E45A">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>28E85F53-E643-EFBD-9BB5-AE812F0F8E9B</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D9731F27-940E-3C3B-727B-496D3742C680</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantidade kg" id="549C775F-AC9D-0C2A-CEBF-F8BD75119B3B">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>E9708106-584C-0165-68B7-65C8E58F8AB7</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>BD171DB8-27DF-FADA-64F5-7ED8F4AAC4AA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantidade kg m3" id="E0CE46F0-BDE6-5203-69AB-7D6CBEADBD39">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>ED9A4945-41D5-52B4-3572-08C11DAF7C14</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>BD171DB8-27DF-FADA-64F5-7ED8F4AAC4AA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo residuo" id="FB185580-2667-D96F-050D-BF78D7B94D1F">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>8B9C179F-9981-C29F-20E5-82BF4A8FA9CE</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A1823C25-1D59-E510-AF88-D6C58FD2AF9C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="foto url" id="7E3300E8-B7CA-8A20-D030-8D9D13B7B252">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>DA07C640-2470-9F5B-3191-1F228B9E06B5</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64B43EFE-3A6D-1EB9-0E7B-3C79A3C4BE52</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B4F46491-9327-019E-3A14-0449D95CAAE1" name="Coleta PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>D5BC606C-F6E3-8392-479C-30DBD88A86DD</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CACEA83F-53CE-A92A-71F4-13E83DBD9CEE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

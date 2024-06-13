@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9D236B42-9F72-CAD1-07C2-9C5459494D1F" name="ConteudoEducacional">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-06-06 09:28:49 UTC</createdTime>
+<generatorID>E4DBA318-6007-4641-EAE8-15B11E2FA085</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="conteudo_id" id="46EA54EF-C96A-7CA6-C0D3-59328A4ED537">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-06-06 09:28:49 UTC</createdTime>
+<generatorID>52754DAD-9681-4BDF-4450-78C8FD8C7448</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D9731F27-940E-3C3B-727B-496D3742C680</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titulo" id="F675FCCC-74C4-1715-6592-0419D6B74ABC">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-06-06 09:28:49 UTC</createdTime>
+<generatorID>6D9A0AB4-A39D-45E4-5A6B-316D1241206F</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A1823C25-1D59-E510-AF88-D6C58FD2AF9C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="AAFAC4AD-10F3-C394-6AF3-8FC539BBCC4B">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-06-06 09:28:49 UTC</createdTime>
+<generatorID>041287CE-527D-39E4-06AA-7B96E793F916</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>53BF3C25-2D7A-31E6-AB67-41CEBFB3BEB0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="url" id="89960F78-5243-DC01-C749-95419F03EF1A">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-06-06 09:28:49 UTC</createdTime>
+<generatorID>DE968BDB-1E64-FEBD-26F7-8559181E9B38</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64B43EFE-3A6D-1EB9-0E7B-3C79A3C4BE52</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="B5E891F8-D387-4AA4-8B5C-0D14F68B4C8D">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-06-06 09:28:49 UTC</createdTime>
+<generatorID>82A9352E-B14D-4A76-FF4C-E12BC9BD715E</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9B33F3A9-C2F9-102D-4197-7842DC10F28C" name="ConteudoEducacional_PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-06-06 09:28:49 UTC</createdTime>
+<generatorID>82A0CA3C-C0D5-F709-2179-B5E6A956F2FF</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46EA54EF-C96A-7CA6-C0D3-59328A4ED537"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

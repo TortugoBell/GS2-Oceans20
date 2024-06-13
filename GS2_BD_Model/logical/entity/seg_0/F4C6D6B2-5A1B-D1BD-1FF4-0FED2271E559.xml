@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F4C6D6B2-5A1B-D1BD-1FF4-0FED2271E559" name="Desafio">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>AA7C65D8-F043-D5F4-6CAB-3245EE8923C0</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="desafio id" id="A4FA4FE3-0B1A-B382-1EE3-B0BDF531EEA1">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>DFB945FA-8DBF-ADE0-544F-BAAA93BF0129</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D9731F27-940E-3C3B-727B-496D3742C680</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome desafio" id="4D5E98C2-5C51-CA09-3D86-3625A297FEA9">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>1089CE37-5D6F-1EDC-7839-4F76EA286C55</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A1823C25-1D59-E510-AF88-D6C58FD2AF9C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="FFC380E4-6CFC-E12D-E6F0-13FB4965E4F7">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>511E1204-A690-C83F-31AB-9BE9283A276B</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data inicio" id="B48767D7-5B08-9E75-7EF0-D31BC46A66EC">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>D6A94A77-5364-853B-2809-865DF4422097</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>1971DA8F-C86D-3FA2-7B3A-672A4CBE43E9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data termino" id="F6BCFF48-FD7D-6E0C-E8FB-1BAAB4351F74">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>BF04E667-7137-8690-5C7D-5E6C956CCBAD</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>1971DA8F-C86D-3FA2-7B3A-672A4CBE43E9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pontos recompensa" id="7EB9BD36-0024-5C07-2455-F8E02DB852C4">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>790BBC66-A356-0963-8E27-85ED08109322</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D9731F27-940E-3C3B-727B-496D3742C680</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8186BACD-B8EC-B3D5-7760-3C21E860F8EC" name="Desafio PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>40E6F924-52ED-05FA-1597-4F15387DA15A</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A4FA4FE3-0B1A-B382-1EE3-B0BDF531EEA1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="42877C6D-AFE8-72D5-818F-31D9206A9CB4" containerWithKeyObject="24385CCC-23CF-619D-E1E5-7091E4FA8428" localFKIndex="C7A45E39-52D5-924D-350E-0991E327DD88" name="Badges_Usuario_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-06-06 09:28:49 UTC</createdTime>
+<generatorID>6851A1F7-4B7F-DAE4-1D47-3EC55D269D38</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<referredTableLongName>Usuario</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EACA5789-5EC7-FBE0-94CC-30682ABB597D</referredTableID>
+<keyObject>34664250-9BFE-5270-DE9E-6FB442440422</keyObject>
+<referredKeyID>34664250-9BFE-5270-DE9E-6FB442440422</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>usuario_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

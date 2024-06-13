@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1FBBFDB9-49AF-C446-838E-3E96C0DA1728" name="Usuario_Desafio">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<importedID>63E590B9-7C80-384C-0505-2C21BDCD2763</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="usuario_id" id="75CEFEB4-7D45-E7B7-8E2A-3290E833682B">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<importedID>FBE804C6-EDA0-E2BC-5538-324F2E50FA67</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D9731F27-940E-3C3B-727B-496D3742C680</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B05F40F-04A8-A5E7-3270-B91D6BA9FC14" referredColumn="73B35BD4-2F29-F072-FDF5-07C6219E82EB"/>
+</associations>
+</Column>
+<Column name="desafio_id" id="386C37C1-CB28-ABA0-9D13-AC9A611DE53D">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<importedID>BB814E88-B41E-8CE5-C885-794C211B6848</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D9731F27-940E-3C3B-727B-496D3742C680</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E25B71A8-F374-C8E8-2660-848F138074FA" referredColumn="DFB945FA-8DBF-ADE0-544F-BAAA93BF0129"/>
+</associations>
+</Column>
+<Column name="status" id="8F5B6DFE-6183-7AF8-44C0-CD553D1C1D35">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<importedID>E972540F-6145-ED41-7B2A-BCBC564F855B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>53BF3C25-2D7A-31E6-AB67-41CEBFB3BEB0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_conclusao" id="E55A593B-D821-D428-6C34-426E598196C0">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<importedID>7A134D31-4471-175F-75F4-C1DC390A60ED</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>1971DA8F-C86D-3FA2-7B3A-672A4CBE43E9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8027D72D-2FB0-D229-13BB-9D2EA04E962F" name="Usuario_Desafio_PK">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<importedID>FBF594D2-44DA-E4C4-E934-CE93494E9C23</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75CEFEB4-7D45-E7B7-8E2A-3290E833682B"/>
+<colUsage columnID="386C37C1-CB28-ABA0-9D13-AC9A611DE53D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00DD9CBA-2740-58D6-81AD-3E4B234A5683" name="Usuario_Desafio_Desafio_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="386C37C1-CB28-ABA0-9D13-AC9A611DE53D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED6773A8-65B1-94EE-75F9-6A951F9CDB97" name="Usuario_Desafio_Usuario_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75CEFEB4-7D45-E7B7-8E2A-3290E833682B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

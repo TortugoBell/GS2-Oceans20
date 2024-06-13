@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E4DBA318-6007-4641-EAE8-15B11E2FA085" name="ConteudoEducacional">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>858BF290-0A82-2BF2-5B5F-FB29DB2760E1</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="conteudo id" id="52754DAD-9681-4BDF-4450-78C8FD8C7448">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>85269FBE-6D75-EE53-4C4C-E20BA80FDCDD</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D9731F27-940E-3C3B-727B-496D3742C680</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="titulo" id="6D9A0AB4-A39D-45E4-5A6B-316D1241206F">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>46021938-7C20-DA48-D715-8C7E741596E1</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A1823C25-1D59-E510-AF88-D6C58FD2AF9C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="041287CE-527D-39E4-06AA-7B96E793F916">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>3BEEC27D-93C9-E816-ED3B-D22B41CC6532</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>53BF3C25-2D7A-31E6-AB67-41CEBFB3BEB0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="url" id="DE968BDB-1E64-FEBD-26F7-8559181E9B38">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>0611238B-2DD9-D289-3C44-684161F8E572</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64B43EFE-3A6D-1EB9-0E7B-3C79A3C4BE52</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="82A9352E-B14D-4A76-FF4C-E12BC9BD715E">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>F474EB73-57B1-91E7-DD09-FF765538B434</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="82A0CA3C-C0D5-F709-2179-B5E6A956F2FF" name="ConteudoEducacional PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>6E5218CD-7150-B51A-A478-DD8C7B68FE8E</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>52754DAD-9681-4BDF-4450-78C8FD8C7448</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E354A39E-52E0-67AF-A292-D4C260E16CDC" name="EventoLimpeza">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>E0A5B4DA-0D89-FFC9-6948-A52C3915DDBF</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="evento id" id="EAC01D10-DC17-CB3F-737C-B472043AFD83">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>9436BE87-5B2E-ECC4-4807-3DBA0768B0DC</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D9731F27-940E-3C3B-727B-496D3742C680</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome evento" id="3CA853C8-FC29-23BA-870B-3A0300760ACE">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>FE97B4F5-0C27-CEF4-AD7B-97B6E3EEB2EB</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A1823C25-1D59-E510-AF88-D6C58FD2AF9C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="E93389BF-3322-A408-454C-192DBD30F7EB">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>606A5FCE-680E-2B17-01AD-CAE64730D785</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data evento" id="E9AABA59-9B70-8379-8B74-D8F09ACE5149">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>FD88BB56-61AE-FF6F-B939-9E1B4DED3067</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>1971DA8F-C86D-3FA2-7B3A-672A4CBE43E9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="localizacao" id="5C0AE929-BE7C-2623-B457-C6E11EB0D6AC">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>4381A000-F970-35D1-56F9-3455F7B611C9</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64B43EFE-3A6D-1EB9-0E7B-3C79A3C4BE52</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="organizador" id="C11E2E8E-6E02-594C-FF64-198D15DBEA17">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>EE1CA9B9-DDC2-F008-605E-504F5949ABEB</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A1823C25-1D59-E510-AF88-D6C58FD2AF9C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AB7051B0-43E5-018E-5989-4F59D52E35E0" name="EventoLimpeza PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>E66AB7C1-71A6-D52E-20E4-A6D6C8D81DA9</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EAC01D10-DC17-CB3F-737C-B472043AFD83</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

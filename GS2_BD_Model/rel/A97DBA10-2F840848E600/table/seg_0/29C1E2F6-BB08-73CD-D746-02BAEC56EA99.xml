@@ -1,0 +1,183 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="29C1E2F6-BB08-73CD-D746-02BAEC56EA99" name="Coleta">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<importedID>25075DCC-A0D4-2DA7-B338-082BB786DFFB</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="coleta_id" id="29B09731-9AAB-1E07-1A49-0F70B5C843CD">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<importedID>946ADC64-BF42-C364-B911-1F08A3D4DF59</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D9731F27-940E-3C3B-727B-496D3742C680</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario_id" id="2664725C-7A94-0E23-9FCC-26E3AA6362C2">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<importedID>1BE4AA02-B955-C185-3709-F9A45117FF20</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D9731F27-940E-3C3B-727B-496D3742C680</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E13EC313-CD26-D06C-FB9A-25D9C5A0DDFC" referredColumn="73B35BD4-2F29-F072-FDF5-07C6219E82EB"/>
+</associations>
+</Column>
+<Column name="evento_id" id="619BBD46-4111-574D-339E-083A2E6353E8">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<importedID>1FBC4F5E-8E7D-5B32-6BAB-1AB3184137E0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D9731F27-940E-3C3B-727B-496D3742C680</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A0633C9-B047-54A6-B7CD-D9ECB2FA92D0" referredColumn="9436BE87-5B2E-ECC4-4807-3DBA0768B0DC"/>
+</associations>
+</Column>
+<Column name="data_coleta" id="E1CC0052-F326-A598-A855-A0D4CE6F221B">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<importedID>DBB9E79B-DA91-3F2F-D1E2-9C3E577AA9CA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>1971DA8F-C86D-3FA2-7B3A-672A4CBE43E9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="localizacao" id="3D518142-2E02-19B3-19CD-5EDF2E96AE9C">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<importedID>E9A417E9-003D-03AB-B730-A95AB0212625</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64B43EFE-3A6D-1EB9-0E7B-3C79A3C4BE52</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidade_pecas" id="28E85F53-E643-EFBD-9BB5-AE812F0F8E9B">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<importedID>9C0A963A-555F-B0C6-3FC2-DE931B792D55</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D9731F27-940E-3C3B-727B-496D3742C680</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidade_kg" id="E9708106-584C-0165-68B7-65C8E58F8AB7">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<importedID>DC01A2A1-DE28-E7BB-A4CB-D2ECC2112825</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>BD171DB8-27DF-FADA-64F5-7ED8F4AAC4AA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidade_kg_m3" id="ED9A4945-41D5-52B4-3572-08C11DAF7C14">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<importedID>4E481F8B-0041-265C-5A2B-8D69D4EF97BD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>BD171DB8-27DF-FADA-64F5-7ED8F4AAC4AA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_residuo" id="8B9C179F-9981-C29F-20E5-82BF4A8FA9CE">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<importedID>E04BEE21-D39B-476D-E2CE-618DF55D9436</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A1823C25-1D59-E510-AF88-D6C58FD2AF9C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="foto_url" id="DA07C640-2470-9F5B-3191-1F228B9E06B5">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<importedID>5D9EB515-61FF-8EBF-3938-AECB32F3EC3F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64B43EFE-3A6D-1EB9-0E7B-3C79A3C4BE52</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D5BC606C-F6E3-8392-479C-30DBD88A86DD" name="Coleta_PK">
+<sourceDDLFile>1.ddl</sourceDDLFile>
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<importedID>FD669D66-C9A0-23CE-2C0E-1BCBC843ADA2</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29B09731-9AAB-1E07-1A49-0F70B5C843CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E9D4729F-5037-C07A-2C08-E9C94BAF737B" name="Coleta_EventoLimpeza_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="619BBD46-4111-574D-339E-083A2E6353E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7CD9653-A89A-9012-10DC-84B27E8B1DF3" name="Coleta_Usuario_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2664725C-7A94-0E23-9FCC-26E3AA6362C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

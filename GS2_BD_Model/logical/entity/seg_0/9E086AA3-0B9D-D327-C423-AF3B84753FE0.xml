@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9E086AA3-0B9D-D327-C423-AF3B84753FE0" name="Usuario">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>36B0CC4D-87E0-3566-5376-9E833B3202C9</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="usuario id" id="F9ED5284-5F0D-29FF-DE68-DDB3EF9FADA4">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>73B35BD4-2F29-F072-FDF5-07C6219E82EB</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D9731F27-940E-3C3B-727B-496D3742C680</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="87D5B71B-E955-CE9F-D563-558A1EBD6B17">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>03545773-6B0C-6B1E-0B67-76472DFD760C</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A1823C25-1D59-E510-AF88-D6C58FD2AF9C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="2FCBFD7C-54B2-FA8E-D70D-45A1A1359F09">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>3B3473B1-70A7-8D16-A1B3-03C5F190BFF1</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A1823C25-1D59-E510-AF88-D6C58FD2AF9C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="senha" id="265B9399-A850-ECCD-C4AE-C90F7402774F">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>56DCC26D-0491-8475-D354-8EAB1A5E812A</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64B43EFE-3A6D-1EB9-0E7B-3C79A3C4BE52</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data registro" id="2195F858-BC59-C7B2-223B-D397EAA2E26E">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>74BD0790-FB4F-E1B7-051F-38025C9C0152</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>1971DA8F-C86D-3FA2-7B3A-672A4CBE43E9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pontuacao total" id="09B01222-F2B1-703C-54AA-93D4F6EB8FF1">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>0CC49AFC-DB0D-7EB3-4B69-91D5E71DB1D5</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D9731F27-940E-3C3B-727B-496D3742C680</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nivel" id="351CA99E-0792-1ED0-A3E6-A6FABBE3B2FD">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>15A65633-930B-45ED-8107-0D9C1C974E26</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D9731F27-940E-3C3B-727B-496D3742C680</domain>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estilo coleta preferido" id="ED9E4B96-5669-233B-6BDD-FFE57597B8CB">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>598095D5-951F-0164-5993-8273F19445A3</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>53BF3C25-2D7A-31E6-AB67-41CEBFB3BEB0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="541AAD13-E6F7-FE46-6352-2EE5CF26103C" name="Usuario PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>B6BB8E83-07D2-62F0-840E-BDA619F92468</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F9ED5284-5F0D-29FF-DE68-DDB3EF9FADA4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

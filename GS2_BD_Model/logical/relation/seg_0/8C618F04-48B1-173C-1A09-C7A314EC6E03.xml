@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Coleta_Usuario_FK" directorySegmentName="seg_0" id="8C618F04-48B1-173C-1A09-C7A314EC6E03">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>E13EC313-CD26-D06C-FB9A-25D9C5A0DDFC</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<sourcePk>541AAD13-E6F7-FE46-6352-2EE5CF26103C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9E086AA3-0B9D-D327-C423-AF3B84753FE0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E6D19595-7A40-DEAC-1DBE-65219539518F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="1" id="A97DBA10-ED35-371E-BCF0-2F840848E600" mainViewID="60F5A8C0-9E6A-740E-FEAB-EDF341024950">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:04 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>1.ddl</fileName>
+<pathName>C:\Users\Pichau\Desktop\Estudo\Fiap\Global Solution 2° Semestre\GS2-Oceans20</pathName>
+<dbType>17</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

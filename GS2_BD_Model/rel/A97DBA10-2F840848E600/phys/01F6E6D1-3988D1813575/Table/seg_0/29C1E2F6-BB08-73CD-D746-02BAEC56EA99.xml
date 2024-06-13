@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Coleta" directorySegmentName="seg_0" id="29C1E2F6-BB08-73CD-D746-02BAEC56EA99">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="usuario_id" id="2664725C-7A94-0E23-9FCC-26E3AA6362C2">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="quantidade_pecas" id="28E85F53-E643-EFBD-9BB5-AE812F0F8E9B">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="coleta_id" id="29B09731-9AAB-1E07-1A49-0F70B5C843CD">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="localizacao" id="3D518142-2E02-19B3-19CD-5EDF2E96AE9C">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="evento_id" id="619BBD46-4111-574D-339E-083A2E6353E8">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tipo_residuo" id="8B9C179F-9981-C29F-20E5-82BF4A8FA9CE">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="foto_url" id="DA07C640-2470-9F5B-3191-1F228B9E06B5">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="data_coleta" id="E1CC0052-F326-A598-A855-A0D4CE6F221B">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="quantidade_kg" id="E9708106-584C-0165-68B7-65C8E58F8AB7">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="quantidade_kg_m3" id="ED9A4945-41D5-52B4-3572-08C11DAF7C14">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Coleta_Usuario_FK" id="D7CD9653-A89A-9012-10DC-84B27E8B1DF3">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Coleta_EventoLimpeza_FK" id="E9D4729F-5037-C07A-2C08-E9C94BAF737B">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Coleta_PK" id="D5BC606C-F6E3-8392-479C-30DBD88A86DD">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:37:18 UTC</createdTime>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

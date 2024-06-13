@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="24385CCC-23CF-619D-E1E5-7091E4FA8428" name="Badges">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-06-06 09:28:49 UTC</createdTime>
+<generatorID>99A2F4BE-8512-7865-F903-354B5A0EC1E1</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Usuario_usuario_id" id="D53E3A9B-2F86-56A4-90AF-7B9DEED06478">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-06-06 09:28:49 UTC</createdTime>
+<generatorID>E65077AB-E80E-1CBA-4050-590F340D264C</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D9731F27-940E-3C3B-727B-496D3742C680</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42877C6D-AFE8-72D5-818F-31D9206A9CB4" referredColumn="BA34E97E-A247-F982-DDB6-B0C13702C65B"/>
+</associations>
+</Column>
+<Column name="B_1" id="20157EC9-50C4-242A-5C4C-5E135C0B0B2A">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-06-06 09:28:49 UTC</createdTime>
+<generatorID>A6CB2013-33BA-E372-D347-CAA0813EA75F</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="B_2" id="50F74F43-953F-0413-AED5-CFCCEACD0B14">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-06-06 09:28:49 UTC</createdTime>
+<generatorID>D8698E55-C106-B2A3-9615-66F03C0F71F5</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="B_3" id="968FE64F-FB0E-1DB9-37A6-13E842AA1E51">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-06-06 09:28:49 UTC</createdTime>
+<generatorID>5F49C903-A1B7-3FB6-B84D-B853593D9338</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D7E88EC1-04C4-CDDA-15E2-880003F9A89E" name="Badges_PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-06-06 09:28:49 UTC</createdTime>
+<generatorID>7C8B43FE-C252-5C9E-E46E-C9F522FCF54E</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D53E3A9B-2F86-56A4-90AF-7B9DEED06478"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7A45E39-52D5-924D-350E-0991E327DD88" name="Badges_Usuario_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-06-06 09:28:49 UTC</createdTime>
+<generatorID>6851A1F7-4B7F-DAE4-1D47-3EC55D269D38</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D53E3A9B-2F86-56A4-90AF-7B9DEED06478"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

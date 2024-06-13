@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Usuario_Desafio_Desafio_FK" directorySegmentName="seg_0" id="28E8C6AA-827E-7B6F-E3B3-975DC9170232">
+<createdBy>Pichau</createdBy>
+<createdTime>2024-05-30 18:53:29 UTC</createdTime>
+<generatorID>E25B71A8-F374-C8E8-2660-848F138074FA</generatorID>
+<ownerDesignName>GS2_BD_Model</ownerDesignName>
+<engineerTo>
+<item key="A97DBA10-ED35-371E-BCF0-2F840848E600" value="true"/>
+<item key="E638B0A0-E40C-A01D-CF4A-AFBA6EE0598C" value="true"/>
+</engineerTo>
+<sourcePk>8186BACD-B8EC-B3D5-7760-3C21E860F8EC</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F4C6D6B2-5A1B-D1BD-1FF4-0FED2271E559</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>102C1BA1-8CAF-3441-E5F3-06E6FA57FD39</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
